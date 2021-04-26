@@ -1,0 +1,14 @@
+
+* Benchcall
+
+Benchmarking inline vs non-inline with shared library code.
+
+#+begin_src bash
+  $ ./bench
+  Nodecount 10000
+  Loopcount 10000
+  Inline Time 263.889090ms
+  Non-inline Time 319.648378ms
+  19.110782% faster
+  $
+#+end_src
